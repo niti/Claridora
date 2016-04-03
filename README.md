@@ -5,7 +5,7 @@
 
 Claridora allows you to find a new way to discover music. Using Spotify and the Clarifai API, you Insert a link to an image online (that is public accessible) and you'll receive suggested tracks.
 
-## How can I run Clairodora on my local machine?
+## How can I run Clairdora on my local machine?
 This is a standalone javascript project, and the web application can be simply be run by opening the index.html file.
 
 You will need to generate credentials for the Spotify API and Calrifai API.
