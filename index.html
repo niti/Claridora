@@ -1,0 +1,69 @@
+<html>
+<head>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.js"></script>
+<script type="text/javascript" src="fuzzyset.js"></script>
+<script type="text/javascript" src="wordcache.js"></script>
+<script type="text/javascript" src="app.js"></script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<style type="text/css">
+
+	.jumbotron {
+		background-color: #333;
+		color: #fff;
+	}
+
+	.jumbotron p {
+		color: #aaa;
+	}
+
+	.jumbotron a {
+		color: #fff;
+	}
+
+</style>
+</head>
+<body onload="startApp()">
+
+	<!-- Main jumbotron for a primary marketing message or call to action -->
+	<div class="jumbotron">
+		<div class="container">
+			<h1> A new way to find music....</h1>
+			<h3> Find music based on your favorite pictures</h3>
+			<p> Insert a link to an image online (that is public accessible) and you'll receive suggested tracks </p>
+			<p class="pull-right"> Powered by Clarifai and Spotify </p>
+		</div>
+	</div>
+
+	<div class="container">
+		<!-- Example row of columns -->
+		<div class="row">
+			<div class="col-md-6">
+				<h2>Write your text here</h2>
+				<div class="form-group">
+					<textarea class="form-control" id="alltext" rows="5" maxlength="500"></textarea>
+				</div>
+				<!-- <p>
+					<button class="btn btn-lg btn-primary btn-success" id="start">Create a Spotify playlist!</button>
+				</p> -->
+				<p>
+					<button class="btn btn-lg btn-primary btn-success" id="getW">Discover!</button>
+				</p>
+
+
+				<div id="status"></div>
+			</div>
+			<div class="col-md-6">
+				<h2>Corresponding track names</h2>
+				<div id="debug"></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
