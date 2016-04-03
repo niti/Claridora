@@ -1,7 +1,7 @@
 # Claridora
 
 
-## what is Claridora?
+## What is Claridora?
 
 Claridora allows you to find a new way to discover music. Using Spotify and the Clarifai API, you Insert a link to an image online (that is public accessible) and you'll receive suggested tracks.
 
