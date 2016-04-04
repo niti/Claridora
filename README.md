@@ -25,6 +25,6 @@ Once all these credentials have been generated,  insert them into the appropriat
 2. Export suggested songs to a user's playlist on Spoitfy
 
 
+# Sources
 
-
-This project is an expansion from a project developed by [@possan] (https://github.com/possan/playlistcreator-example)
+This project is an expansion from a project developed by [@possan] (https://github.com/possan/playlistcreator-example) and utilizes javascript methods that interact with the Clarifai API from [@cassidoo] (https://github.com/cassidoo/clarifai-javascript-starter)  
